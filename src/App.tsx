@@ -57,7 +57,7 @@ const App: React.FC = () => (
           <Landing />
         </Route>
         <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/landing" />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
